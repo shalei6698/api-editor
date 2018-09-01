@@ -1,0 +1,51 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+# VS Code
+.vscode
+!.vscode/tasks.js
+
+# JetBrains IDEs
+.idea/
+
+# dependencies
+/website/node_modules
+
+# testing
+/website/coverage
+
+# production
+/website/build
+
+# misc
+/website/.DS_Store
+/website/.env.local
+/website/.env.development.local
+/website/.env.test.local
+/website/npm-debug.log*
+
+/website/yarn-debug.log*
+/website/yarn-error.log*
+
+
+/server/logs
+/server/*.log
+/server/npm-debug.log*
+
+# Dependencies
+/server/node_modules/
+
+# Coverage
+/server/coverage
+
+# Transpiled files
+/server/build/
+
+# Optional npm cache directory
+/server/.npm
+
+# Optional eslint cache
+/server/.eslintcache
+
+# Misc
+/server/.DS_Store
+
+/server/node_modules
